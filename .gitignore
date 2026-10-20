@@ -1,0 +1,20 @@
+# Ignore virtual environment
+venv/
+ENV/
+env/
+
+# Ignore auto-generated Dockerfile and build artifacts
+Dockerfile
+*.tar
+*.log
+
+# Ignore Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore IDE and OS settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
