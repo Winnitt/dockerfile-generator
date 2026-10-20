@@ -6,11 +6,11 @@ An autonomous, privacy-focused DevOps CLI tool that analyzes project source repo
 
 ##  Key Features
 
-- ** 100% Local & Privacy-Preserving:** Uses locally hosted open-weight models (`Qwen 2.5 Coder 1.5B`) via Ollama. No source code or credentials ever leave your machine.
-- ** Dynamic Context Scanning:** Reads project manifests (`requirements.txt`, `package.json`, `go.mod`, `pom.xml`) to understand dependencies automatically.
-- ** Agentic Self-Healing Loop:** Automatically captures `stderr` output from failed `docker build` attempts and feeds logs back to the LLM for inline repair (up to 3 retries).
-- ** Resource Optimized:** Tuned with 4-bit quantization (`Q4_K_M`) to run smoothly on 8 GB RAM machines with integrated graphics.
-- ** Cross-Platform Stream Safety:** Explicit UTF-8 stream handling prevents cross-platform encoding exceptions on Windows PowerShell and Linux terminals.
+****-  100% Local & Privacy-Preserving:** Uses locally hosted open-weight models (`Qwen 2.5 Coder 1.5B`) via Ollama. No source code or credentials ever leave your machine.**
+**-  Dynamic Context Scanning:** Reads project manifests (`requirements.txt`, `package.json`, `go.mod`, `pom.xml`) to understand dependencies automatically.
+**-  Agentic Self-Healing Loop:** Automatically captures `stderr` output from failed `docker build` attempts and feeds logs back to the LLM for inline repair (up to 3 retries).
+-  Resource Optimized:** Tuned with 4-bit quantization (`Q4_K_M`) to run smoothly on 8 GB RAM machines with integrated graphics.
+-  Cross-Platform Stream Safety:** Explicit UTF-8 stream handling prevents cross-platform encoding exceptions on Windows PowerShell and Linux terminals.******
 
 ---
 
